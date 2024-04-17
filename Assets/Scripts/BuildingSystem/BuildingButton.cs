@@ -8,7 +8,7 @@ public class BuildingButton : MonoBehaviour {
     [SerializeField] BuildableObjectSO buildableObjectSO;
 
     void Start() {
-        gameObject.GetComponent<Image>().sprite = buildableObjectSO.sprite;
+        //gameObject.GetComponent<Image>().sprite = buildableObjectSO.sprite;
         gameObject.GetComponent<Button>().onClick.AddListener(OnButtonClick);
 
     }

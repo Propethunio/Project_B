@@ -12,10 +12,8 @@ public class BuildableObjectSO : ScriptableObject {
         Right
     }
 
-    public string nameString;
     public GameObject prefab;
     public GameObject visual;
-    public Sprite sprite;
     public int width;
     public int height;
     public bool isRoad;
