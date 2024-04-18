@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -48,8 +49,10 @@ public class UIContoller : MonoBehaviour {
             BuildingType buildingType = GetEnum(type.typeName);
             btn.clicked += () => SetBuildings(buildingType);
             types.Add(btn);
-            types.style.display = DisplayStyle.Flex;
         }
+        types.style.display = DisplayStyle.Flex;
+        buildings.style.display = DisplayStyle.None;
+        info.style.display = DisplayStyle.None;
     }
 
     BuildingType GetEnum(string typeName) {
