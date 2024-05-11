@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268664b339343b04183ca5c45f90db04, type: 3}
   m_Name: 1_PatatoFarm
   m_EditorClassIdentifier: 
-  <icon>k__BackingField: {fileID: 21300000, guid: 1a7b71411f578a447acbed864099bd38,
-    type: 3}
+  <icon>k__BackingField:
+    m_AssetGUID: 1a7b71411f578a447acbed864099bd38
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   <buildingName>k__BackingField: "Pole Ziemniak\xF3w"
   <buildingDsc>k__BackingField: "Miejsce, w kt\xF3rym sadzone i zbierane s\u0105
     ziemniaki."

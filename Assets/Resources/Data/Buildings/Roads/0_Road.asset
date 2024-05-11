@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268664b339343b04183ca5c45f90db04, type: 3}
   m_Name: 0_Road
   m_EditorClassIdentifier: 
-  <icon>k__BackingField: {fileID: 21300000, guid: 3aa18610802035a49b8d686967c8b90e,
-    type: 3}
+  <icon>k__BackingField:
+    m_AssetGUID: 3aa18610802035a49b8d686967c8b90e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   <buildingName>k__BackingField: "Zwyk\u0142a droga"
   <buildingDsc>k__BackingField: "Pozwala po\u0142\u0105czy\u0107 budynki z ratuszem."
   <buildingType>k__BackingField: 2

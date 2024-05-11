@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268664b339343b04183ca5c45f90db04, type: 3}
   m_Name: 2_Sawmill
   m_EditorClassIdentifier: 
-  <icon>k__BackingField: {fileID: 21300000, guid: 5fccde5bd78c2a946850683546cfc174,
-    type: 3}
+  <icon>k__BackingField:
+    m_AssetGUID: 5fccde5bd78c2a946850683546cfc174
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   <buildingName>k__BackingField: Tartak
   <buildingDsc>k__BackingField: "Pozwala tworzy\u0107 deski z k\u0142\xF3d."
   <buildingType>k__BackingField: 0

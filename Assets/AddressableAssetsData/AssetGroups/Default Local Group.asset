@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5aac99fc3a105b044b095ac0718b4b20
+  m_SerializeEntries:
+  - m_GUID: aafed9ad1ced02e44935c4ae387fd17f
+    m_Address: Assets/CarrotFarm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a6e0ae13c0aa16428619e7709e0a283
+    m_Address: Assets/Production.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f482fc35d3529f343b1d55a3ec8ce379
+    m_Address: Assets/Food.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a224c5a40e709c4409d619aca5f37e4c
+    m_Address: Assets/Roads.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b40a68378c7afa4a8b16470a4aeaef6
+    m_Address: Assets/Storage.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 077d144889552224382ac0c037283ae6
+    m_Address: Assets/Farmhouse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c169891dd6e8464e81cbdf7803d47cc
+    m_Address: Assets/Lumberjack.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a7b71411f578a447acbed864099bd38
+    m_Address: Assets/PatatoFarm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aa18610802035a49b8d686967c8b90e
+    m_Address: Assets/Road.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fccde5bd78c2a946850683546cfc174
+    m_Address: Assets/Sawmill.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e8024fe7c8532f458d2c6b6b6a040b9
+    m_Address: Assets/Wood.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5e9f064aa95cc994289722b6fbd64361, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fed5fc1debf99cf4a91ac2c4e3e5777a, type: 2}
+    - {fileID: 11400000, guid: 7a13338a1266ee245b0f1bcb8487be99, type: 2}

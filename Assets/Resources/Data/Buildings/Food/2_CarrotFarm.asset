@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268664b339343b04183ca5c45f90db04, type: 3}
   m_Name: 2_CarrotFarm
   m_EditorClassIdentifier: 
-  <icon>k__BackingField: {fileID: 21300000, guid: aafed9ad1ced02e44935c4ae387fd17f,
-    type: 3}
+  <icon>k__BackingField:
+    m_AssetGUID: aafed9ad1ced02e44935c4ae387fd17f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   <buildingName>k__BackingField: Pole Marchwi
   <buildingDsc>k__BackingField: "Miejsce, w kt\xF3rym sadzone i zbierane s\u0105
     marchewki."

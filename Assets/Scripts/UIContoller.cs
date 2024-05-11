@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor.Build.Pipeline.Utilities;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.UIElements;
 
 public class UIContoller : MonoBehaviour {
@@ -70,17 +72,22 @@ public class UIContoller : MonoBehaviour {
         foreach(BuildingSO building in buildingsList[type]) {
             Button btn = new Button();
             btn.AddToClassList("icon");
-            btn.style.backgroundImage = new StyleBackground(building.icon);
+            Addressables.LoadAssetAsync<Sprite>(building.icon).Completed += (obj) => OnBtnLoadComplete(obj, btn);
             btn.clicked += () => SetInfo(building);
             buildings.Add(btn);
         }
         buildings.style.display = DisplayStyle.Flex;
     }
 
+    private void OnBtnLoadComplete(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<Sprite> obj, Button btn)
+    {
+        btn.style.backgroundImage = new StyleBackground(obj.Result);
+    }
+
     void SetInfo(BuildingSO buildingInfo) {
         infoCost.Clear();
         dsc.Clear();
-        infoIcon.style.backgroundImage = new StyleBackground(buildingInfo.icon);
+        Addressables.LoadAssetAsync<Sprite>(buildingInfo.icon).Completed += OnInfoLoadComplete;
         infoName.text = buildingInfo.buildingName;
         foreach(costDict cost in buildingInfo.buildingCost) {
             Label lb = new Label();
@@ -113,5 +120,10 @@ public class UIContoller : MonoBehaviour {
             dsc.Add(ve);
         }
         info.style.display = DisplayStyle.Flex;
+    }
+
+    private void OnInfoLoadComplete(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<Sprite> obj)
+    {
+        infoIcon.style.backgroundImage = new StyleBackground(obj.Result);
     }
 }

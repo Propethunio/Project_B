@@ -1,6 +1,7 @@
 using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 [Serializable]
 public class costDict {
@@ -12,7 +13,7 @@ public class costDict {
 public class BuildingSO : ScriptableObject {
 
     [field: SerializeField, PreviewField(75), HideLabel, HorizontalGroup("GameData", 75), VerticalGroup("GameData/left")]
-    public Sprite icon { get; private set; }
+    public AssetReferenceT<Sprite> icon { get; private set; }
 
     [field: SerializeField, VerticalGroup("GameData/right"), LabelText("Name")]
     public string buildingName { get; private set; }
